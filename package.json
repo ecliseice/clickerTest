@@ -9,8 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "async-redis": "^2.0.0",
+    "net": "^1.0.2",
+    "next": "13.5.6",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.6"
+    "sass": "^1.77.6"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false,
+    "net": false,
+    "tls": false
   }
 }
